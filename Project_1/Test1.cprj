@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>C:\Git\GitTesting\Project_1\Test1.cprj</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <_TopFolder>
+    <Name>Test1.cprj</Name>
+    <ProjectType>Integration</ProjectType>
+    <VcAction>None</VcAction>
+    <Members />
+    <IsExpanded>false</IsExpanded>
+  </_TopFolder>
+  <TopFolder>
+    <Name>Test1.cprj</Name>
+    <ProjectType>Integration</ProjectType>
+    <VcAction>None</VcAction>
+    <Members />
+    <IsExpanded>false</IsExpanded>
+  </TopFolder>
+  <RegressionProperties>
+    <RegressionDataDirectory>
+      <Path />
+      <UncPath />
+    </RegressionDataDirectory>
+  </RegressionProperties>
+  <OpenFiles />
+</Project>
