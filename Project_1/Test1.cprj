@@ -11,14 +11,26 @@
     <Name>Test1.cprj</Name>
     <ProjectType>Integration</ProjectType>
     <VcAction>None</VcAction>
-    <Members />
+    <Members>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Dataflow1.Df</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+    </Members>
     <IsExpanded>false</IsExpanded>
   </_TopFolder>
   <TopFolder>
     <Name>Test1.cprj</Name>
     <ProjectType>Integration</ProjectType>
     <VcAction>None</VcAction>
-    <Members />
+    <Members>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Dataflow1.Df</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+    </Members>
     <IsExpanded>false</IsExpanded>
   </TopFolder>
   <RegressionProperties>
