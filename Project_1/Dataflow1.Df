@@ -28,8 +28,8 @@
           <NormalBounds>
             <Height>220</Height>
             <Width>180</Width>
-            <X>84</X>
-            <Y>155</Y>
+            <X>226</X>
+            <Y>134</Y>
             <IsExpanded>true</IsExpanded>
             <IsSorted>false</IsSorted>
           </NormalBounds>
@@ -338,6 +338,167 @@
         <ExportMode>false</ExportMode>
       </DataflowItemDataDestinationDelimited>
     </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>a8812470-e4d6-44e3-a8a0-c64f101e9214</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>a8812470-e4d6-44e3-a8a0-c64f101e9214</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>ExcelDest</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>508</X>
+            <Y>420</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>ExcelDest</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDestinationExcel>
+        <Name>ExcelDest</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>ExcelDest</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ExcelSheet</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <ExcelLayoutField IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="KOKRS" DataType="Integer" Length="0" Header="KOKRS" IsPrimaryKey="false" AllowsNull="true" MaxFieldLengthInLayoutBuilding="4" MaxNumericValueInLayoutBuilding="2000" MaxDecimalPlacesInLayoutBuilding="0" Index="0">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <UniqueId>97d6fd46-952c-4a94-a65a-1c528eaf0b09</UniqueId>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="LSTAR" DataType="String" Length="0" Header="LSTAR" IsPrimaryKey="false" AllowsNull="true" MaxFieldLengthInLayoutBuilding="6" MaxNumericValueInLayoutBuilding="5600" MaxDecimalPlacesInLayoutBuilding="0" Index="1">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <UniqueId>886fe95c-225f-4d1b-a733-a4b082a694bb</UniqueId>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="LEINH" DataType="String" Length="0" Header="LEINH" IsPrimaryKey="false" AllowsNull="true" MaxFieldLengthInLayoutBuilding="3" MaxNumericValueInLayoutBuilding="10" MaxDecimalPlacesInLayoutBuilding="0" Index="2">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <UniqueId>1d6c14ee-6e14-4f76-83de-46055773c7f8</UniqueId>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="LATYP" DataType="Integer" Length="0" Header="LATYP" IsPrimaryKey="false" AllowsNull="true" MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="3" MaxDecimalPlacesInLayoutBuilding="0" Index="3">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <UniqueId>c23763c9-a254-496d-90aa-6b18f05bf042</UniqueId>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="VKSTA" DataType="String" Length="0" Header="VKSTA" IsPrimaryKey="false" AllowsNull="true" MaxFieldLengthInLayoutBuilding="10" MaxNumericValueInLayoutBuilding="215600000" MaxDecimalPlacesInLayoutBuilding="0" Index="4">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <UniqueId>910667b2-a273-46c5-aec0-710e68e58d9d</UniqueId>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+            <ExcelLayoutField IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="TARKZ" DataType="Integer" Length="0" Header="TARKZ" IsPrimaryKey="false" AllowsNull="true" MaxFieldLengthInLayoutBuilding="1" MaxNumericValueInLayoutBuilding="3" MaxDecimalPlacesInLayoutBuilding="0" Index="5">
+              <FieldRoles>Input Output</FieldRoles>
+              <RegressionType>None</RegressionType>
+              <UniqueId>8a155e7b-fd07-431f-be55-3adc2a714e3c</UniqueId>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+            </ExcelLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" MakeAllFieldsAsStringInBuildLayout="false" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="\\QA-share\share\Sidra Khan\SAP\SAP des\TEST.xlsx" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path>\\QA-share\share\Sidra Khan\SAP\SAP des\TEST.xlsx</Path>
+              <UncPath>\\QA-share\share\Sidra Khan\SAP\SAP des\TEST.xlsx</UncPath>
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <DoNotProcessRecordsWithErrors>true</DoNotProcessRecordsWithErrors>
+        <ClearIncomingRecordErrors>false</ClearIncomingRecordErrors>
+        <DoNotOverwriteDefaultsWithNullValues>false</DoNotOverwriteDefaultsWithNullValues>
+        <FilePath>\\QA-share\share\Sidra Khan\SAP\SAP des\TEST.xlsx</FilePath>
+        <WriteToMultipleFiles>false</WriteToMultipleFiles>
+        <Worksheet />
+        <SourceFieldPaths />
+        <UsesSourceFieldPaths>false</UsesSourceFieldPaths>
+        <ExportMode>false</ExportMode>
+        <FilterExpression />
+      </DataflowItemDataDestinationExcel>
+    </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps>
@@ -383,24 +544,66 @@
       <MapValueType>Value</MapValueType>
       <MapLinkType>Data</MapLinkType>
     </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>d2ddcf1f-ea8e-4d13-95b5-fdf44331c5a5</UniqueId>
+      <Start>ExcelSource.KOKRS</Start>
+      <End>ExcelDest.KOKRS</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>bc25b746-0bdf-41f3-9277-75554bfc6463</UniqueId>
+      <Start>ExcelSource.LSTAR</Start>
+      <End>ExcelDest.LSTAR</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>0e3c2228-a390-46fb-9ac9-c5a71dc94741</UniqueId>
+      <Start>ExcelSource.LEINH</Start>
+      <End>ExcelDest.LEINH</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>a6a3330b-1e95-4b1d-bc89-773edd08664a</UniqueId>
+      <Start>ExcelSource.LATYP</Start>
+      <End>ExcelDest.LATYP</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>803af248-bb05-456b-a2d9-3c36b476bd8f</UniqueId>
+      <Start>ExcelSource.VKSTA</Start>
+      <End>ExcelDest.VKSTA</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>c7918bf5-ca43-423b-ad1e-f135a6059679</UniqueId>
+      <Start>ExcelSource.TARKZ</Start>
+      <End>ExcelDest.TARKZ</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
   </Maps>
   <Relationships />
   <VisualInfo>
-    <UniqueId>491ac6e2-3f39-44e9-b569-f74b64b0b937</UniqueId>
+    <UniqueId>1d257816-73a3-4a59-8812-0cae3455f637</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
-        <X>84</X>
-        <Y>155</Y>
+        <X>226</X>
+        <Y>134</Y>
       </Location>
       <Size>
-        <Width>620</Width>
-        <Height>253</Height>
+        <Width>494</Width>
+        <Height>537</Height>
       </Size>
-      <X>84</X>
-      <Y>155</Y>
-      <Width>620</Width>
-      <Height>253</Height>
+      <X>226</X>
+      <Y>134</Y>
+      <Width>494</Width>
+      <Height>537</Height>
     </DocumentBounds>
     <DocumentPosition>
       <X>0</X>
