@@ -63,7 +63,7 @@
           <Children />
           <Referenced />
           <ValidationRules />
-          <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+          <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" EncryptedUser="" EncryptedPassword="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
             <IsReadOnly>false</IsReadOnly>
             <providerFilter>
               <DataProviderType>Adm</DataProviderType>
@@ -219,7 +219,7 @@
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>7fe4fec2-0a60-46e0-8c04-ef8d38edcecc</UniqueId>
+    <UniqueId>09cc9185-3deb-4235-ba3a-95ea10e7c893</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
